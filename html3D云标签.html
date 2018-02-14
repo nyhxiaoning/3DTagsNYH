@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        
+
+    </style>
+</head>
+<body>
+<div id="tag-cloud"></div>
+<script src="jquery-1.8.2.js"></script>
+<script src="jquery.svg3dtagcloud.min.js"></script> 
+  
+    <script>
+    $(function(){
+
+              var entries = [ 
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },            
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+           { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' },
+            { label: '千寻博客', url: 'http://baidubaidu.com', target: '_Blank' }
+        ];
+        var settings = {
+         entries: entries,
+         width: 640,
+         height: 480,
+          radius: '65%',
+         radiusMin: 75,
+         bgDraw: false,
+         opacityOver: 1.00,
+          opacityOut: 0.05,
+        opacitySpeed: 6,
+        fov: 800,
+        speed: 0.5,
+        fontFamily: 'Oswald, Arial, sans-serif',
+        fontSize: '15',
+        fontColor: '#009688',
+        fontWeight: 'normal',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        fontToUpperCase: true
+};
+$( '#tag-cloud' ).svg3DTagCloud( settings );
+
+
+
+
+
+    })
+     
+        
+
+
+
+    </script>
+</body>
+</html>
