@@ -1,0 +1,20 @@
+svg3dtagcloud.js插件的可用配置参数有：
+entries：一个对象数组，用于初始化标签。
+width：标签云的宽度。
+height：标签云的高度。
+radius：标签云的半径。
+radiusMin：标签云的最小半径。
+bgDraw：是否使用背景色。
+bgColor：背景颜色。
+opacityOver：鼠标滑过标签时的标签透明度。
+opacityOut：鼠标离开标签时的标签透明度。
+opacitySpeed：标签透明度过渡速度。
+fov：how the content is presented。
+speed：标签云动画的速度。
+fontFamily：标签云的字体。
+fontSize：标签云的字体大小。
+fontColor：标签云的字体颜色。
+fontWeight：标签云的字体的fontWeight。
+fontStyle：标签云的字体样式。
+fontStretch：标签云的字体的fontStretch。
+fontToUpperCase：是否转换为大写字体。
